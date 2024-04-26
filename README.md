@@ -1,0 +1,8 @@
+The project aims to develop an effective fake news detection system by leveraging big data technologies and machine learning algorithms, specifically XGBoost and Gradient Boosted Trees (GBT), within the PySpark framework. The primary objective is to address the growing challenge of identifying and mitigating the spread of misinformation and fake news in the digital landscape.
+At the core of the project lies the utilization of Apache Spark and PySpark for scalable and distributed processing of large volumes of textual data. This involves preprocessing the data to clean and standardize text, followed by feature extraction using techniques such as TF-IDF and word embeddings to represent each document numerically.
+The XGBoost and GBT algorithms are then employed for classification tasks, training on the extracted features to distinguish between fake and genuine news articles. PySpark facilitates the parallelized training of these models across computing clusters, ensuring efficient processing and utilization of computational resources.
+The project evaluates the performance of the trained models using standard evaluation metrics such as accuracy and F1-score to assess their effectiveness in accurately identifying fake news. Once validated, the models are deployed into production environments for real-time or batch processing of news articles, with mechanisms in place for continuous monitoring and updating to adapt to evolving trends and tactics in fake news dissemination.
+Install all the requirements mentioned in the requirement.text file 
+Download Python version 3.9
+Download Java version 11 or advanced version
+Download Spark 
